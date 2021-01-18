@@ -20,8 +20,11 @@
 <body>
 
 	<h1>Vice Versa</h1>
-	<textarea rows="8" cols="50" name="usertext"></textarea>
-	<br>
-	<input class="inprev" type="submit" value="Reverse">
+
+	<form action="{% url 'reverse' %}">
+		<textarea rows="8" cols="50" name="usertext"></textarea>
+		<br>
+		<input class="inprev" type="submit" value="Reverse">
+	</form>
 </body>
 </html>
