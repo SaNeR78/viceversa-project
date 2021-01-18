@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Result</title>
+	<style type="text/css">
+		h1 {
+			font-family: papyrus, Serif;
+		}
+	</style>
 </head>
 <body>
 
 	<h1>Result</h1>
 	<p>{{ usertext }}</p>
-	<form action="Back">
+	<p>You have <strong>{{ resulting }}</strong> words in your sentences.</p>
+	<form>
 		<input type="button" value="Back at home" onclick="history.back()">
 	</form>
 </body>
