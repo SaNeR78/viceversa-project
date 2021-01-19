@@ -1,20 +1,23 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Result</title>
-	<style type="text/css">
-		h1 {
-			font-family: papyrus, Serif;
-		}
-	</style>
+	<link rel="stylesheet" type="text/css" href="{% static 'viceversa-project/css/reverse-css.css' %}">
 </head>
 <body>
 
-	<h1>Result</h1>
-	<p>{{ usertext }}</p>
-	<p>You have <strong>{{ resulting }}</strong> words in your sentences.</p>
-	<form>
-		<input type="button" value="Back at home" onclick="history.back()">
-	</form>
+	<div class="divheader">Result</div>
+	<div>
+		<div class="divtext">
+			<p>{{ usertext }}</p>
+			<p>You have <strong>{{ resulting }}</strong> words in your sentences.</p>
+		</div>
+		<div class="divbutton">
+			<form>
+				<input class="inprev" type="button" value="Back at home" onclick="history.back()">
+			</form>
+		</div>
+	</div>
 </body>
 </html>
