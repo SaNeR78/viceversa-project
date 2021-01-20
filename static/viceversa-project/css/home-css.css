@@ -2,16 +2,6 @@ body {
 	background-image: url("../img/back-gree-fone.jpg");
 }
 
-.inprev {
-	margin-top: 20px;
-	background: orange;
-	padding: 5px 80px;
-	font-family: papyrus, Serif;
-	border: 5px solid black;
-	font-size: 30px;
-
-}
-
 .area {
 	border: 5px solid black;
 	font-size: 30px;
@@ -32,5 +22,26 @@ body {
 }
 
 .divbutton {
+	position: static;
 	text-align: center;
+}
+
+.divbutton1 {
+	position: fixed;
+	right: 5px;
+	bottom: 5px;
+}
+
+.pos {
+	position: relative;
+}
+
+.inprev {
+	margin-top: 20px;
+	background: orange;
+	padding: 5px 80px;
+	font-family: papyrus, Serif;
+	border: 5px solid black;
+	font-size: 30px;
+
 }

@@ -22,6 +22,12 @@ body {
 	text-align: center;
 }
 
+.divbutton1 {
+	position: fixed;
+	right: 5px;
+	bottom: 5px;
+}
+
 .inprev {
 	margin-top: 20px;
 	background: orange;
